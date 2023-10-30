@@ -1,0 +1,193 @@
+body{
+    background-color: grey;
+}
+
+.div1{
+    height: 130px;
+    width: 400px;
+    color: magenta;
+    background-color: white;
+    border: 5px solid red;
+    box-shadow: 7px 5px 2px purple;
+    border-radius: 13px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+    margin-left: 400px;
+    padding-bottom: 25px;
+}
+.a1{
+    color: rgb(71, 3, 71);
+    background-color: white;
+    height: 160px;
+    width: 220px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 7px 6px 3px purple;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(71, 3, 71);
+}
+
+#para{
+    margin-top: -20px;
+    padding-top: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.a2{
+    background-color: white;
+    height: 160px;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 7px 6px 2px purple;
+    padding: 10px;
+    align-items: center;
+    margin-left: 700px;
+}
+.a3{
+    color: rgb(71, 3, 71);
+    background-color: white;
+    height: 160px;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 7px 6px 3px purple;
+    padding: 10px;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgb(71, 3, 71); 
+    font-size: 20px;
+    font-weight: bold;
+}
+.a4{
+    color: rgb(71, 3, 71);
+    background-color: white;
+    height: 160px;
+    width: 220px;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 6px 5px 3px purple;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgb(71, 3, 71);
+    font-weight: bold;
+    clear: right;
+    margin-top: 20px;
+    margin-left: 700px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+}
+.rate{
+    font-size: 20px;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.main1{ 
+    border: 5px solid green;
+}
+label{
+    font-size: 13px;
+}
+input{
+    width: 120px;
+    height: 10px;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+    height: 18px;
+    font-size: 10px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    text-align: center;
+}
+.bottom{
+    margin-top: 20px;
+    background-color: green;
+    border: 5px solid purple;
+    width:600px;
+    margin-left: 300px;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.fruit{
+    color: black;
+    background-color: yellow;
+    margin-right: 10px;
+    height: 250px;
+    width: 50%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+}
+.veg{
+    color: black;
+    background-color: yellow;
+    width: 50%;
+    font-weight: bold;
+    font-size: small;
+    font-style: inherit;
+    font-style: italic;
+}
+
+.other{
+    color: black;
+    background-color: yellow;
+    height: 250px;
+    padding: 5px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+}
+.h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sticky{
+    height: 80px;
+    width: 450px;
+    color: brown;
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color:lime;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 7px 6px 3px purple;
+    margin-left: 400px;
+    align-items: center;
+    font-style: italic;
+    position: fixed;
+}
+
+.p1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: bold;
+}
